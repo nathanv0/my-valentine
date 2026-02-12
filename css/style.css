@@ -52,7 +52,7 @@ button {
 
 #yes-btn:hover {
     background-color: #5A7863;
-    transform: scale(1.10); /*Slight grow on hover*/
+    transform: scale(1.05); /*Slight grow on hover*/
 }
 
 #no-btn {
@@ -61,7 +61,7 @@ button {
 
 #no-btn:hover {
     background-color: #b91c1c;
-    transform: scale(0.9); /*Slight shrink on hover*/
+    transform: scale(0.95); /*Slight shrink on hover*/
 }
 
 .hidden {
