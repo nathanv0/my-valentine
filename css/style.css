@@ -7,7 +7,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #FFDFEF; /* pink background */
-    font-family: Aria, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -20,6 +20,8 @@ img {
 }
 
 h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
     font-size: 2.5rem;
     margin: 20px 0;
     color: #db2777;
@@ -39,9 +41,9 @@ button {
     font-weight: bold;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, background-color 0.2s;
 }
 
 #yes-btn {
@@ -50,6 +52,7 @@ button {
 
 #yes-btn:hover {
     background-color: #5A7863;
+    transform: scale(1.10); /*Slight grow on hover*/
 }
 
 #no-btn {
@@ -58,6 +61,7 @@ button {
 
 #no-btn:hover {
     background-color: #b91c1c;
+    transform: scale(0.9); /*Slight shrink on hover*/
 }
 
 .hidden {
