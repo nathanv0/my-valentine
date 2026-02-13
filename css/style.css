@@ -4,10 +4,15 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
     align-items: center;
     min-height: 100vh;
-    background-color: #FFDFEF; /* pink background */
-    font-family: 'Open Sans', sans-serif;
+    background-image: url('../assets/wallpaper.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
 }
 
 .container {
@@ -24,7 +29,7 @@ h1 {
     font-weight: 700;
     font-size: 2.5rem;
     margin: 20px 0;
-    color: #db2777;
+    color: #fea0b3;
 }
 
 .button-container {
@@ -68,3 +73,25 @@ button {
     display: none;
 }
 
+body.success-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/us.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    transition: background 0.5s ease-in-out;
+}
+
+#success-screen a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#success-screen a:hover {
+    color:#fea0b3;
+}
+
+#success-screen h1 {
+    color: #fff8f7;
+}

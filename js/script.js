@@ -95,4 +95,6 @@ yesBtn.addEventListener('click', () => {
 
     // Show the success screen when click yes btn clicked
     successScreen.classList.remove('hidden');
+
+    document.body.classList.add('success-bg');
 })
